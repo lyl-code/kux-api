@@ -4,6 +4,6 @@ import { Controller, Get } from '@nestjs/common';
 export class VersionController {
     @Get('easy-pack')
     getVersion(): string {
-        return '1.0.16';
+        return '1.0.17';
     }
 }
